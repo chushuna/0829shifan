@@ -6,6 +6,7 @@ window.onload=function(){
     setInterval(()=>{
     if(count+1 == length){
         div.scrollTop=0
+        count=0
     }
     else{
         count++
